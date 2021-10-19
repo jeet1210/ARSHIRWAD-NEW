@@ -7,7 +7,56 @@
         text-align: left !important;
         vertical-align: text-top !important;
         display: contents !important;
-        font: 100 !important
+        font-size: 15px !important;
+        inline-size: 15px !important
+    }
+
+    .team_title {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        padding-top: 15px !important;
+        padding-bottom: 0px !important
+    }
+    .text-white{
+        color:white
+    }
+    .ti {
+        font-family: Arial !important;
+    }
+
+    .bgorange {
+        background-color: firebrick !important;
+        height: 175px !important;
+    }
+
+    .font-bold-white {
+        font-family: 'Bradley Hand ITC';
+        color: white !important;
+        font-weight: bold
+    }
+
+    .vsr-banner-Btn {
+        width: 170px;
+        height: 49px;
+        margin: 10px auto 0;
+        border-radius: 26px;
+        background-color: #e68572;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .vsr-banner-Btn-name {
+        align-items: center;
+        justify-content: center;
+        align-content: center !important;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Raleway !important;
+        padding-top:13px;
+    }
+    .single_categories a{
+        padding:9px 20px
     }
 </style>
 <!-- START SECTION BANNER -->
@@ -90,6 +139,49 @@
             <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
                 <i class="ion-chevron-right"></i>
             </a>
+        </div>
+    </div>
+    <div class="col-12 animation container" data-autoplay="true" data-animation-delay="0.02s" style="top:-67px; padding-left:10n0px">
+        <div class="course_categories carousel_slider owl-carousel owl-theme nav_style1" data-margin="15" data-nav="true" data-dots="false" data-autoplay="true" data-responsive='{"0":{"items": "1"}, "380":{"items": "2"}, "576":{"items": "3"}, "1000":{"items": "5"}, "1199":{"items": "6"}}'>
+            <div class="item">
+                <div class="single_categories">
+                    <a href="#" class="bgorange">
+                        <h5><p class="font-bold-white">English for Kids</p></h5>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">READING • Age 4-6</p>
+                        </div>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">SPEAKING • Age 7-14</p>
+                        </div>
+                    </a>
+                </div>
+            </div>   @*&#8226*@
+            <div class="item">
+                <div class="single_categories">
+                    <a href="#" class="bgorange">
+                        <h5><p class="font-bold-white text-white">Computer Science</p></h5>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">Coding • Grade 1-8</p>
+                        </div>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">CS Tuitions • Grade 11-12</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div class="single_categories">
+                    <a href="#" class="bgorange">
+                        <h5><p class="font-bold-white">Crash Course</p></h5>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">NTSE 2021</p>
+                        </div>
+                        <div class="vsr-banner-Btn">
+                            <p class="vsr-banner-Btn-name text-white">Grade 10 Term 1</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -933,7 +1025,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <!--<div class="col-lg-3 col-md-6">
                 <div class="blog_post box_shadow1 radius_all_10 animation" data-animation="fadeInUp" data-animation-delay="0.01s">
                     <div class="blog_img radius_ltrt_10">
                         <a href="@Url.Action("TeacherDetail","Home")">
@@ -949,34 +1041,67 @@
                         <p><b> Tue 12 Oct</b></p>
                         <hr />
                         <p>Maths Expert</p>
-                        <p><b>B.Tech- IIT Dharwad</b></p>
-                        <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
-                    </div>
-                    <!--<div class="blog_footer bg-white radius_lbrb_10">
+                        <p><b>B.Tech- IIT Dharwad</b></p>-->
+            <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
+            <!--</div>-->
+            <!--<div class="blog_footer bg-white radius_lbrb_10">
                 <ul class="list_none blog_meta">
                     <li><a href="#"><i class="ion-calendar"></i>15 May, 2019</a></li>
                     <li><a href="#"><i class="ion-chatbubbles"></i>2 Comment</a></li>
                 </ul>
             </div>-->
+            <!--</div>
+            </div>-->
+            <div class="col-lg-3 col-sm-6">
+                <div class="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
+                    <div class="team_img">
+                        <img src="~/Themedata/assets/images/pexels-mentatdgt-937481.jpg" alt="team2">
+                        <ul class="list_none social_icons social_white">
+                            <li>
+                                <a>
+                                    <div class="ti-view-list text-body text_white" style="padding:10px">
+                                        <p><b>HIGHLIGHTS OF THIS MASTERCLASS</b></p>
+                                        <p>Get to know <b>amazing Tricks to solve problems on One Variable</b></p>
+                                        <p>Study<b>Smart Not hard with Vedantu Master Class</b></p>
+                                        <p>Understand the <b>Concept in a better way through in class Quizzes</b></p>
+                                        <p>Clear all your doubts with <b>Subject Expert G Prasad Sir</b></p>
+                                    </div>
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="team_title radius_lbrb_10 text-center">
+                        <h5><a href="@Url.Action("TeacherDetail","Home")">Aden Smith</a></h5>
+                        <span>Professor</span>
+                        <div class="blog_content bg-white">
+                            <h6 class="blog_title">Grades 8th-10th</h6>
+                            <h6 class="blog_title">Tue 12 Oct</h6>
+                            <h6 class="blog_title">Maths Expert</h6>
+                            <h6 class="blog_title">B.Tech- IIT Dharwad</h6>
+                            <p></p>
+                            <p><b> </b></p>
+                            <p></p>
+                            <p><b></b></p>
+                            <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-3 col-sm-6">
                 <div class="team_box team_style1 box_shadow1 animation" data-animation="fadeInUp" data-animation-delay="0.03s">
                     <div class="team_img">
                         <img src="~/Themedata/assets/images/pexels-pixabay-532220.jpg" alt="team2">
-                        <ul class="list_none social_icons social_white">
+                        <ul class="list_none social_icons social_white" style="padding:10px">
                             <li>
                                 <a>
-                                    <div class="ti-view-list text-body text_white">
-                                        <p><b>Grades 8th-10th</b></p>
-                                        <p> Tue 12 Oct</p>
-                                        <hr />
-                                        <p><b>Taken by</b></p>
-                                        <p>Aden Smith</p>
-                                        <hr />
-                                        <p>Maths Expert</p>
-                                        <p><b>B.Tech - IIT Dharwad</b></p>
-
+                                    <div class="ti-view-list text-body text_white" style="padding:10px">
+                                        <p><b>HIGHLIGHTS OF THIS MASTERCLASS</b></p>
+                                        <p>Get to know <b>amazing Tricks to solve problems on One Variable</b></p>
+                                        <p>Study<b>Smart Not hard with Vedantu Master Class</b></p>
+                                        <p>Understand the <b>Concept in a better way through in class Quizzes</b></p>
+                                        <p>Clear all your doubts with <b>Subject Expert G Prasad Sir</b></p>
                                     </div>
                                 </a>
 
@@ -987,6 +1112,17 @@
                     <div class="team_title radius_lbrb_10 text-center">
                         <h5><a href="@Url.Action("TeacherDetail","Home")">Kally Brooks</a></h5>
                         <span>Professor</span>
+                        <div class="blog_content bg-white">
+                            <h6 class="blog_title">Grades 8th-10th</h6>
+                            <h6 class="blog_title">Tue 12 Oct</h6>
+                            <h6 class="blog_title">Maths Expert</h6>
+                            <h6 class="blog_title">B.Tech- IIT Dharwad</h6>
+                            <p></p>
+                            <p><b> </b></p>
+                            <p></p>
+                            <p><b></b></p>
+                            <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -995,15 +1131,34 @@
                     <div class="team_img">
                         <img src="~/Themedata/assets/images/pexels-kenneth-carpina-1525695.jpg" alt="team3">
                         <ul class="list_none social_icons social_white">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                            <li>
+                                <a>
+                                    <div class="ti-view-list text-body text_white" style="padding:10px">
+                                        <p><b>HIGHLIGHTS OF THIS MASTERCLASS</b></p>
+                                        <p>Get to know <b>amazing Tricks to solve problems on One Variable</b></p>
+                                        <p>Study<b>Smart Not hard with Vedantu Master Class</b></p>
+                                        <p>Understand the <b>Concept in a better way through in class Quizzes</b></p>
+                                        <p>Clear all your doubts with <b>Subject Expert G Prasad Sir</b></p>
+                                    </div>
+                                </a>
+
+                            </li>
                         </ul>
                     </div>
                     <div class="team_title radius_lbrb_10 text-center">
-                        <h5><a href="#">David clark</a></h5>
-                        <span>Chemistry Teacher</span>
+                        <h5><a href="@Url.Action("TeacherDetail","Home")">David Farre</a></h5>
+                        <span>Professor</span>
+                        <div class="blog_content bg-white">
+                            <h6 class="blog_title">Grades 8th-10th</h6>
+                            <h6 class="blog_title">Tue 12 Oct</h6>
+                            <h6 class="blog_title">Maths Expert</h6>
+                            <h6 class="blog_title">B.Tech- IIT Dharwad</h6>
+                            <p></p>
+                            <p><b> </b></p>
+                            <p></p>
+                            <p><b></b></p>
+                            <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1012,15 +1167,34 @@
                     <div class="team_img">
                         <img src="~/Themedata/assets/images/pexels-mentatdgt-937483.jpg" alt="team4">
                         <ul class="list_none social_icons social_white">
-                            <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                            <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                            <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
+                            <li>
+                                <a>
+                                    <div class="ti-view-list text-body text_white">
+                                        <p><b>HIGHLIGHTS OF THIS MASTERCLASS</b></p>
+                                        <p>Get to know <b>amazing Tricks to solve problems on One Variable</b></p>
+                                        <p>Study<b>Smart Not hard with Vedantu Master Class</b></p>
+                                        <p>Understand the <b>Concept in a better way through in class Quizzes</b></p>
+                                        <p>Clear all your doubts with <b>Subject Expert G Prasad Sir</b></p>
+                                    </div>
+                                </a>
+
+                            </li>
                         </ul>
                     </div>
                     <div class="team_title radius_lbrb_10 text-center">
-                        <h5><a href="#">Rebeka Alig</a></h5>
-                        <span>English Teacher</span>
+                        <h5><a href="@Url.Action("TeacherDetail","Home")">Rebeka Alig </a></h5>
+                        <span>Professor</span>
+                        <div class="blog_content bg-white">
+                            <h6 class="blog_title">Grades 8th-10th</h6>
+                            <h6 class="blog_title">Tue 12 Oct</h6>
+                            <h6 class="blog_title">Maths Expert</h6>
+                            <h6 class="blog_title">B.Tech- IIT Dharwad</h6>
+                            <p></p>
+                            <p><b> </b></p>
+                            <p></p>
+                            <p><b></b></p>
+                            <!--<a href="teacher.html" class="text-capitalize">Read More</a>-->
+                        </div>
                     </div>
                 </div>
             </div>
